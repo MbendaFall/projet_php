@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("fondbon.jpg");
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(65px);
+    box-shadow: 0 0 30px rgba(0, 0, 0 , .2) ;
+}
+
+h1, h2 {
+    color:black;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.action-buttons a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.action-buttons a.modify {
+    background-color: #4CAF50; /* Vert */
+}
+
+.action-buttons a.delete {
+    background-color: #f44336; /* Rouge */
+}
+
+.action-buttons a:hover {
+    opacity: 0.8;
+}
+
+.menu {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu a:hover {
+    opacity: 0.8;
+}
+
+ table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Style des boutons */
+        .action-buttons {
+            display: flex;
+            gap: 5px;
+        }
+        .action-buttons a {
+            display: inline-block;
+            padding: 5px 10px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .action-buttons a.modify {
+            background-color: #4CAF50; /* Vert */
+        }
+        .action-buttons a.delete {
+            background-color: #f44336; /* Rouge */
+        }
+        .action-buttons a:hover {
+            opacity: 0.8;
+        }
+        /* Style du conteneur du menu */
+.menu-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style des liens du menu */
+.menu-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+/* Style des liens au survol */
+.menu-container a:hover {
+    background-color: #fff;
+    color:black;
+}
+
+/* Style du dernier lien sans marge à droite */
+.menu-container a:last-child {
+    margin-right: 0;
+}

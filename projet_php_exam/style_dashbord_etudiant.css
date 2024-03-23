@@ -1,0 +1,75 @@
+body {
+            font-family: Arial, sans-serif;
+            background: url("fondbon.jpg");
+        }
+
+        .welcome-section {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        .memoires-section {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {      background-color: #f2f2f2;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+.contenu{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(200px);
+    box-shadow: 0 0 30px rgba(0, 0, 0 , .2) ;
+    margin-top: 50px;
+}
+.menu-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+h1{
+    text-align: center;
+}
